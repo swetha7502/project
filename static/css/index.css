@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+input[type=radio] {
+    width: 30px;
+    height: 30px;
+}
+
+input::placeholder {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/bg3.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.box {
+    overflow: scroll;
+    height: 80%;
+    width: 600px;
+    padding: 30px;
+    top: 55%;
+    position: absolute;
+    left: 50%;
+    font-family: 'Roboto Mono', sans-serif;
+    transform: translate(-50%, -50%);
+    background: rgba(36, 23, 28, 0.4);
+    text-align: center;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
+
+.box1 {
+    overflow: scroll;
+    width: 600px;
+    padding: 30px;
+    height: 80%;
+    top: 55%;
+    position: absolute;
+    left: 50%;
+    font-family: 'Roboto Mono', sans-serif;
+    transform: translate(-50%, -50%);
+    background: rgba(36, 23, 28, 0.4);
+    text-align: center;
+}
+
+.box h1 {
+    color: rgb(50, 41, 53);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="password"] {
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(245, 185, 136);
+    padding: 14px 10px;
+    width: 220 px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.25px;
+}
+
+.clrbtn {
+    background-color: rgb(94, 51, 91);
+    color: white;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 270px;
+    border-color: rgb(226, 147, 209);
+}
+
+.box input[type="submit"] {
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid;
+    padding: 14px 35px;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.25px;
+    cursor: pointer;
+    background-color: rgb(94, 51, 91);
+    color: white;
+}
+
+.box input[type="submit"]:hover {
+    background-color: rgb(70, 33, 57);
+    color: rgb(236, 198, 233);
+}
+
+.header {
+    overflow: hidden;
+    padding: 10px 10px;
+    font-family: 'Roboto Mono';
+}
+
+.header a {
+    float: left;
+    color: rgb(39, 24, 39);
+    text-align: center;
+    padding: 12px;
+    font-family: 'Roboto Mono';
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    background-color: rgb(94, 51, 91);
+    color: rgb(236, 213, 232);
+}
+
+.header a.active {
+    background-color: rgb(94, 51, 91);
+    color: rgb(236, 213, 232);
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}

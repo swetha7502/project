@@ -1,0 +1,13 @@
+# Name                    Version                   Build
+flask                     2.0.3              pyhd8ed1ab_0    
+flask-login               0.5.0                      py_0   
+flask-sqlalchemy          2.5.1              pyhd8ed1ab_0
+jinja2                    3.0.3              pyhd8ed1ab_0
+matplotlib                3.5.1           py310h2ec42d9_0   
+matplotlib-base           3.5.1           py310hfc59cd6_0
+python                    3.10.2          hea1dfa3_4_cpython
+python-dateutil           2.8.2              pyhd8ed1ab_0
+sqlalchemy                1.4.32          py310h1961e1f_0 
+sqlite                    3.37.1               hb516253_0
+werkzeug                  2.0.3              pyhd8ed1ab_1
+
